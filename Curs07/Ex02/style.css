@@ -9,3 +9,48 @@ i {
 a[href*='.com'] {
   color: black;
 }
+
+a {
+  color: green;
+}
+
+.line {
+  text-decoration: underline;
+}
+
+line p {
+  color: grey;
+}
+
+b {
+  color: purple;
+}
+
+.desc odd line {
+  color: grey;
+}
+
+p [class='line'] {
+  color: grey;
+}
+
+[class='desc odd'] i {
+  text-decoration: underline;
+}
+
+[class='desc odd'] [class='line'] {
+  color: blue;
+}
+
+[class='desc even'] b {
+  text-decoration: underline;
+}
+
+a[href^="http://"]
+{
+  color: red;
+}
+
+a[href$='.com'] {
+  color: black;
+}
