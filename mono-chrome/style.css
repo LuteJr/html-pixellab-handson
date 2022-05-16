@@ -463,9 +463,12 @@ a {
   margin-left: 156px;
 }
 
+.footer-newslwtter {
+  display: flex;
+  align-items: center;
+}
 .footer-newslwtter li {
   display: inline-block;
-  vertical-align: top;
 }
 
 .footer-connect > p {
@@ -475,19 +478,126 @@ a {
 #email-newssletter {
   width: 100%;
   border: 1px solid #ccc;
-  font-size: 20px;
+  font-size: 18px;
+  padding: 4px 0;
 }
 #submit-newsletter {
+  margin-top: 12px;
   font-size: 12px;
-  margin-bottom: 30px;
   border: 1px solid;
   text-transform: uppercase;
+  padding: 5px 15px;
 }
 
 .footer-social {
-  font-size: 18px;
+  padding-top: 25px;
+  font-size: 20px;
 }
 .footer-social li {
   display: inline;
   margin-right: 16px;
+}
+
+.home-catalog-preview h1 {
+  font-family: 'Playfair Display';
+  font-weight: 900;
+  font-size: 35px;
+  text-align: center;
+  padding: 6px 0 30px 0;
+  color: #2b2b2b;
+}
+
+hr {
+  margin: 5px 0;
+  border: 1px solid #ccc;
+}
+
+.firstline {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.product-tiles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 74px;
+}
+
+.product-tile {
+  width: 23.67256%;
+}
+
+.product-tile .product-tile-image {
+  position: relative;
+}
+
+.product-tile .product-tile-image img {
+  width: 100%;
+  padding-bottom: 21px;
+}
+
+.product-tile-badge {
+  font-size: 26px;
+  top: 20px;
+  right: 20px;
+  position: absolute;
+}
+
+.product-tile span:nth-child(2) {
+  display: block;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.product-tile span:nth-child(3) {
+  display: block;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 22px;
+  text-align: center;
+}
+
+.catalog-ctas {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.catalog-ctas button a {
+  padding: 12px 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.catalog-ctas button {
+  background-color: transparent;
+  font-size: 22px;
+  color: #2b2b2b;
+  border: 1px solid #2b2b2b;
+  margin-bottom: 1px;
+}
+
+.home-content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.home-content h1 {
+  font-size: 44px;
+  text-align: right;
+}
+
+.home-content p {
+  font-size: 22px;
+  text-align: justify;
+  line-height: 43px;
+  margin-bottom: 68px;
+  margin-left: 150px;
 }
