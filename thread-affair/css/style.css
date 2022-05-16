@@ -579,7 +579,7 @@ a {
 
 .product-tile .product-tile-title span:first-child {
   color: black;
-  font-weight: 500px;
+  font-weight: 500;
 }
 
 .product-tile .product-tile-title span:nth-child(2) {
